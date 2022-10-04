@@ -9,12 +9,12 @@
 class Stack {
   stackArray: number[] = []
 
-  push(pushedNumber: number): void {
+  push (pushedNumber: number): void {
     // add a number to the array
     this.stackArray.push(pushedNumber)
   }
 
-  showStack(): void {
+  showStack (): void {
     console.log(this.stackArray)
   }
 }
